@@ -59,23 +59,22 @@
 
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item active" aria-current="page">Home</li>
+            <li class="breadcrumb-item" aria-current="page">Plots</li>
+            <li class="breadcrumb-item active" aria-current="page">Max Temperature</li>
         </ol>
     </nav>
 
     <div class="container">
-        <div class="jumbotron">
-            <h1 class="display-4">Site Summary</h1>
-            <p class="lead">This is a homework project using weather data</p>
-            <p>Below is a list of visualizations from our data</p>
-            <hr class="my-4">
-            <ul>
-                <li><strong>Plot 1: </strong><a href="#">Max Temperature</a></li>
-                <li><strong>Plot 2: </strong><a href="#">Min Temperature</a></li>
-                <li><strong>Plot 3: </strong><a href="#">Cloudiness</a></li>
-                <li><strong>Plot 4: </strong><a href="#">Wind Speed</a></li>
-            </ul>
-            <a class="btn btn-primary btn-lg" href="#" role="button">See Comparisons</a>
+        <div class="row" id="mainrow">
+            <div class="col-md-7" id="mainchart">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h3>City Latitude versus Max Temperature</h3>
+                        <hr>
+                        <img src="/images/Fig1.png" alt="scatter plot of max temperature">
+                    </div>
+                </div>
+            </div>                
         </div>
     </div>   
 </body>
