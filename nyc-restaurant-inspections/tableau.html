@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NYC Restaurant Inspection</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+          crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="https://vknguyen1902.github.io/index.html">
+            CIS 4170</a>
+        <button class="navbar-toggler" 
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://vknguyen1902.github.io/">Introduction <span class="sr-only">(current)</span></a>
+                </li>       
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://vknguyen1902.github.io/nyc-restaurant-inspections/avg_score_map.html">Geomapping Story</a>
+                </li>                
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Story 2</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Story 3</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Story 4</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Story 5</a>
+                </li>                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" 
+                       data-toggle="dropdown" 
+                       href="#" role="button" 
+                       aria-haspopup="true" 
+                       aria-expanded="false">
+                       All Plots</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Temperature</a>
+                          <a class="dropdown-item" href="#">Humidity</a>
+                          <a class="dropdown-item" href="#">Cloudiness</a>
+                          <a class="dropdown-item" href="#">Wind Speed</a>
+                       </div>
+                </li>
+    
+            </ul>
+        </div>
+    </nav>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Introduction</li>
+        </ol>
+    </nav>
+<div id="compcharts" class="col-md-12">
+    <h3> </h3>
+    <h3>Tableau</h3>
+    <hr>
+    <div class='tableauPlaceholder' id='viz1557354082460' style='position: relative'>
+        <noscript><a href='#'>
+            <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Je&#47;Jenny_Vy_SungPaul&#47;CausesofDeath&#47;1_rss.png' style='border: none' /></a>
+        </noscript>
+        <object class='tableauViz'  style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+            <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+            <param name='name' value='Jenny_Vy_SungPaul&#47;CausesofDeath' />
+            <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Je&#47;Jenny_Vy_SungPaul&#47;CausesofDeath&#47;1.png' /> 
+            <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' /></object>
+        </div>                
+            <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1557354082460');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                vizElement.style.width='1016px';vizElement.style.height='991px';                    
+                var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                </script>
+</div>
+</body>
+</html>
