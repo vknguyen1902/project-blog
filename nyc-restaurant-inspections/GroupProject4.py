@@ -7,13 +7,10 @@
 
 
 import pandas as pd
-from sodapy import Socrata
-from config2 import API_Key, username, password
-import requests
-import json
 import matplotlib.pyplot as plt
 import numpy as np
 import datetime as dt
+import os
 
 from bokeh.plotting import figure, output_file
 from bokeh.models import ColumnDataSource, DatetimeTickFormatter, HoverTool, Select
@@ -32,7 +29,7 @@ output_notebook()
 # In[2]:
 
 
-data_df = pd.read_csv("C:/Users/PRHEE/Documents/Program Documents/Baruch/CIS 4170/DOHMH_New_York_City_Restaurant_Inspection_Results.csv")
+data_df = pd.read_csv("DOHMH_New_York_City_Restaurant_Inspection_Results.csv")
 
 
 # In[3]:
